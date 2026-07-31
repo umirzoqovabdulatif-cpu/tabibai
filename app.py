@@ -184,3 +184,39 @@ elif app_mode.startswith("🛒 Savat"):
                 st.session_state.cart = []
     else:
         st.info("Savatingiz bo'sh.")
+# ==========================================
+# TABIB AI QISMI (Eski kodlarga tegmasdan oxiriga qo'shiladi)
+# ==========================================
+import google.generativeai as genai
+
+# API kalitingizni shu yerga qo'shtirnoq ichiga yozasiz
+genai.configure(api_key="AQ.Ab8RN6JNbk7FRPKolFW6pXOatIRVtsIRgQWoy7xVZWza9LqBBw")
+_tabib_ai_model = genai.GenerativeModel("gemini-2.5-flash")
+
+st.markdown("---")
+st.header("🩺 Tabib AI — Sun'iy Intellekt Maslahatchisi")
+st.write(
+    "Istalgan tibbiy savolingizni bering: simptomlar, tahlil natijalari yoki"
+    " dori vositalari haqida sun'iy intellekt batafsil tushuntirib beradi."
+)
+
+_ai_input = st.text_area(
+    "Savolingizni yoki shikoyatingizni shu yerga yozing:",
+    placeholder="Masalan: Bosh og'rig'i nima sababdan bo'lishi mumkin?",
+    key="tabib_ai_text_input",
+)
+
+if st.button("AI dan javob olish", key="tabib_ai_btn"):
+  if _ai_input.strip() != "":
+    with st.spinner("Tabib AI tahlil qilmoqda..."):
+      _ai_prompt = (
+          "Siz tibbiy yordamchi sun'iy intellekt sifatida ishlayapsiz."
+          " Foydalanuvchining har qanday tibbiy savoliga, simptomlariga yoki"
+          " tahlillariga o'zbek tilida aniq, tushunarli va foydali ma'lumot"
+          f" berib tushuntirib bering: {_ai_input}"
+      )
+      _ai_response = _tabib_ai_model.generate_content(_ai_prompt)
+      st.subheader("🤖 Tabib AI javobi:")
+      st.write(_ai_response.text)
+  else:
+    st.warning("Iltimos, avval savolingizni yozing!")
