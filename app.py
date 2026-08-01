@@ -190,7 +190,7 @@ elif app_mode.startswith("🛒 Savat"):
 import google.generativeai as genai
 
 # API kalitingizni shu yerga qo'shtirnoq ichiga yozasiz
-genai.configure(api_key="AQ.Ab8RN6JN4xnfIfLFQrr7SCN-S7mWXN4heKu-IdoTv_BkpUrtQ")
+genai.configure(api_key="AQ.Ab8RN6JbabhkTwz6YE-xU4V8JQbIH6s81FgSlTVhjdrcmy-Ptw")
 _tabib_ai_model = genai.GenerativeModel("gemini-1.5-flash")
 
 st.markdown("---")
