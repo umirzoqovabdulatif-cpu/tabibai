@@ -46,7 +46,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     try:
-        shifokorlar_df = pd.o'qish_csv("shifokorlar.csv")
+        shifokorlar_df = pd.read_csv("shifokorlar.csv")
     except:
         doctors_df = pd.DataFrame([
             {"Ism": "Dr. Alisher Karimov", "Mutaxassislik": "Kardiolog", "Manzil": "Toshkent sh.", "Reyting": "⭐⭐⭐⭐⭐", "Rasm": "https://via.placeholder.com/150"},
