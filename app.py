@@ -190,8 +190,8 @@ elif app_mode.startswith("🛒 Savat"):
 import google.generativeai as genai
 
 # API kalitingizni shu yerga qo'shtirnoq ichiga yozasiz
-
-_tabib_ai_model = genai.GenerativeModel("gemini-2.5-flash")
+genai.configure(api_key="AQ.Ab8RN6JN4xnfIfLFQrr7SCN-S7mWXN4heKu-IdoTv_BkpUrtQ")
+_tabib_ai_model = genai.GenerativeModel("gemini-1.5-flash")
 
 st.markdown("---")
 st.header("🩺 Tabib AI — Sun'iy Intellekt Maslahatchisi")
