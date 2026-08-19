@@ -46,13 +46,13 @@ st.markdown("""
 @st.cache_data
 def load_data():
     try:
-        shifokorlar_df = pd.read_csv("shifokorlar.csv")
+        doctors_df = pd.read_csv("shifokorlar.csv")
     except:
         doctors_df = pd.DataFrame([
             {"Ism": "Dr. Alisher Karimov", "Mutaxassislik": "Kardiolog", "Manzil": "Toshkent sh.", "Reyting": "⭐⭐⭐⭐⭐", "Rasm": "https://via.placeholder.com/150"},
             {"Ism": "Dr. Malika Umarova", "Mutaxassislik": "Pediatr", "Manzil": "Samarqand sh.", "Reyting": "⭐⭐⭐⭐⭐", "Rasm": "https://via.placeholder.com/150"}
         ])
-        
+
     try:
         meds_df = pd.read_csv("meds.csv")
     except:
@@ -60,7 +60,7 @@ def load_data():
             {"Nomi": "Paratsetamol 500mg", "Turi": "Og'riq qoldiruvchi", "Narxi": "12,000 UZS", "Holat": "Mavjud", "Rasm": "https://via.placeholder.com/150"},
             {"Nomi": "Amoksillin 250mg", "Turi": "Antibiotik", "Narxi": "45,000 UZS", "Holat": "Mavjud", "Rasm": "https://via.placeholder.com/150"}
         ])
-        
+
     return doctors_df, meds_df
 
 doctors_db, meds_db = load_data()
@@ -71,7 +71,7 @@ st.sidebar.markdown("---")
 
 cart_count = len(st.session_state.cart)
 app_mode = st.sidebar.radio(
-    "Bo'limni tanlang", 
+    "Bo'limni tanlang",
     ["🏠 Bosh sahifa", "🤖 AI Konsultatsiya", "👨‍⚕️ Shifokorlar", "💊 Dorixona", f"🛒 Savat ({cart_count})"]
 )
 
@@ -85,7 +85,7 @@ if app_mode == "🏠 Bosh sahifa":
             <div style="color: #7f8c8d;">1000+ shifokorlar va dorixonalar bazasi, AI yordamchi hamda nasiya savdo imkoniyati.</div>
         </div>
     """, unsafe_allow_html=True)
-    
+
     col1, col2, col3 = st.columns(3)
     with col1:
         st.info(f"👨‍⚕️ Shifokorlar bazasi")
@@ -144,7 +144,7 @@ elif app_mode == "💊 Dorixona":
     st.markdown("---")
     med_search = st.text_input("🔍 Dori nomini qidiring")
     filtered_meds = meds_db[meds_db.astype(str).apply(lambda row: row.str.contains(med_search, case=False).any(), axis=1)] if med_search else meds_db
-        
+
     if not filtered_meds.empty:
         for i in range(0, len(filtered_meds), 3):
             cols = st.columns(3)
@@ -184,14 +184,15 @@ elif app_mode.startswith("🛒 Savat"):
                 st.session_state.cart = []
     else:
         st.info("Savatingiz bo'sh.")
+
 # ==========================================
 # TABIB AI QISMI (Eski kodlarga tegmasdan oxiriga qo'shiladi)
 # ==========================================
 import google.generativeai as genai
 
-# API kalitingizni shu yerga qo'shtirnoq ichiga yozasiz
+# API kalit endi faqat Streamlit Secrets orqali o'qiladi (koddan olib tashlandi)
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-_tabib_ai_model = genai.GenerativeModel("gemini-1.5-flash")
+_tabib_ai_model = genai.GenerativeModel("gemini-2.5-flash")
 
 st.markdown("---")
 st.header("🩺 Tabib AI — Sun'iy Intellekt Maslahatchisi")
