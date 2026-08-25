@@ -1,10 +1,3 @@
-Mana sizning kodingizni to'liq **ikki tilli (Inglizcha / O'zbekcha)** versiyaga o'tkazdim.
-
-Ilova ochilganda avtomatik ravishda **Ingliz tilida** ochiladi (xalqaro ekspertlar uchun), lekin chap panel (sidebar) orqali xohlagan payt **O'zbek tiliga** o'tkazish mumkin. Barcha menyular, qidiruvlar va matnekstlar ikkala tilda ishlaydigan qilindi.
-
-Quyidagi tayyor kodni to'liq nusxalab, `app.py` faylingizga tashlab qo'yasiz:
-
-```python
 import streamlit as st
 import pandas as pd
 import google.generativeai as genai
@@ -323,5 +316,3 @@ if st.button(t["tabib_btn"], key="tabib_ai_btn"):
             st.write(_ai_response.text)
     else:
         st.warning(t["warning_q"])
-
-```
