@@ -5,7 +5,50 @@ st.set_page_config(
     page_title="Tabib AI — Tibbiy Platforma", page_icon="🩺", layout="wide"
 )
 
-# ----------------- SHIFOKORLARNING TO'LIQ BAZASI (350+ qatorlik qism) -----------------
+# ----------------- DIZAYN VA USLUBLAR (CSS) -----------------
+st.markdown(
+    """
+    <style>
+    .doctor-card {
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease;
+    }
+    .doctor-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    .doctor-name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1a202c;
+        margin-bottom: 5px;
+    }
+    .doctor-spec {
+        color: #2b6cb0;
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .doctor-address {
+        color: #4a5568;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .doctor-rating {
+        color: #d69e2e;
+        font-size: 14px;
+    }
+    </style>
+""",
+    unsafe_allow_html=True,
+)
+
+# ----------------- SHIFOKORLARNING TO'LIQ BAZASI -----------------
 doctors_list = [
     {
         "Ism": "Dr. Ismatova Moxigul Kabulovna",
@@ -560,7 +603,7 @@ if "cart" not in st.session_state:
   st.session_state.cart = []
 
 # ----------------- YON PANEL (SIDEBAR) -----------------
-st.sidebar.title("Tabib AI")
+st.sidebar.title("🩺 Tabib AI")
 lang = st.sidebar.selectbox("Language / Til", ["O'zbekcha", "Русский"])
 
 if lang == "O'zbekcha":
@@ -587,7 +630,7 @@ else:
       "Аптека",
       f"Корзина ({len(st.session_state.cart)})",
   ]
-  search_doc_text = "🔍 Поиск врача по имени или специальности"
+  search_doc_text = "🔍 Поиск врача по специальности или имени"
   book_btn = "Записаться на прием"
   ai_title = "Tabib AI — Консультант ИИ"
   ai_desc = "Задайте любой медицинский вопрос."
@@ -601,8 +644,9 @@ if choice in ["Bosh sahifa", "Главная"]:
   st.title("🩺 Tabib AI Platformasiga Xush Kelibsiz!")
   st.markdown(
       "Bu platforma orqali malakali shifokorlarni topishingiz va sun'iy"
-      " intellekt maslahatidan foydalanishingiz mumkin."
+      " intellekt yordamida tezkor tibbiy maslahat olishingiz mumkin."
   )
+  st.info("Chap tarafdagi menyu orqali kerakli bo'limni tanlang.")
 
 # ----------------- 2. AI KONSULTATSIYASI -----------------
 elif choice in ["AI Konsultatsiyasi", "AI Консультация"]:
@@ -612,7 +656,8 @@ elif choice in ["AI Konsultatsiyasi", "AI Консультация"]:
   if st.button(ai_btn):
     if user_query.strip():
       st.success(
-          "Sun'iy intellekt tahlili: Shifokor maslahati tavsiya etiladi."
+          "Sun'iy intellekt tahlili: Mutaxassis shifokor ko'rigidan o'tish"
+          " tavsiya etiladi."
       )
     else:
       st.warning("Iltimos, savolingizni yozing!")
@@ -620,11 +665,11 @@ elif choice in ["AI Konsultatsiyasi", "AI Консультация"]:
 # ----------------- 3. SHIFOKORLAR -----------------
 elif choice in ["Shifokorlar", "Врачи"]:
   st.title("👨‍⚕️ Malakali Shifokorlar Ro'yxati")
-  st.write(f"Jami shifokorlar soni: {len(doctors_list)} ta")
+  st.write(f"Jami shifokorlar bazasi: **{len(doctors_list)} ta** shifokor")
 
   search_query = st.text_input(search_doc_text)
 
-  # Qidirish
+  # Qidirish filtri
   filtered_doctors = [
       doc
       for doc in doctors_list
@@ -632,22 +677,27 @@ elif choice in ["Shifokorlar", "Врачи"]:
       or search_query.lower() in doc["Mutaxassislik"].lower()
   ]
 
-  cols = st.columns(2)
-  for index, row in enumerate(filtered_doctors):
-    with cols[index % 2]:
-      st.markdown(
-          f"""
-            <div style="border: 1px solid #e0e0e0; border-radius: 10px; padding: 15px; margin-bottom: 15px; background-color: white;">
-                <h4>{row['Ism']}</h4>
-                <p style="color: #2b6cb0; font-weight: bold;">🩺 {row['Mutaxassislik']}</p>
-                <p style="color: #666; font-size: 14px;">📍 {row['Manzil']}</p>
-                <p>{row['Reyting']}</p>
-            </div>
-            """,
-          unsafe_allow_html=True,
-      )
-      if st.button(book_btn, key=f"doc_{index}"):
-        st.success(f"{row['Ism']} qabuliga yozilish uchun so'rov yuborildi!")
+  if filtered_doctors:
+    cols = st.columns(2)
+    for index, row in enumerate(filtered_doctors):
+      with cols[index % 2]:
+        st.markdown(
+            f"""
+                <div class="doctor-card">
+                    <div class="doctor-name">{row['Ism']}</div>
+                    <div class="doctor-spec">🩺 {row['Mutaxassislik']}</div>
+                    <div class="doctor-address">📍 {row['Manzil']}</div>
+                    <div class="doctor-rating">{row['Reyting']}</div>
+                </div>
+                """,
+            unsafe_allow_html=True,
+        )
+        if st.button(book_btn, key=f"doc_{index}"):
+          st.success(
+              f"✅ {row['Ism']} qabuliga yozilish uchun so'rov yuborildi!"
+          )
+  else:
+    st.warning("Hech qanday shifokor topilmadi.")
 
 # ----------------- 4. DORIXONA -----------------
 elif choice in ["Dorixona", "Аптека"]:
