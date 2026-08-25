@@ -1,51 +1,81 @@
-name,specialty,experience,hospital,location,rating,reviews,image_url
-Dr. Alisher Shodiyev,Kardiolog,12 yil,1-Respublika klinik shifoxonasi,Toshkent sh.,5.0,"Juda malakali shifokor, dardimga malham topdilar.;Professional yondashuv va o'z ishining ustasi.;Barchaga tavsiya qilaman, juda e'tiborli doktor.;Muolajasi qisqa fursatda yordam berdi.;Rahmat shifokorga, sog' bo'lsinlar!",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Zilola Karimova,Terapevt,8 yil,Med Akademi Klinikasi,Toshkent sh.,4.9,"Mehribon va o'z ishini mukammal biladigan mutaxassis.;Barcha savollarimga batafsil javob oldim.;Aniq tashxis qo'yib, to'g'ri davo yozdilar.;Juda madaniyatli va e'tiborli shifokor.;Ishidan ko'nglim to'ldi.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Jamshid Tursunov,Nevrolog,10 yil,Shifo Nur Tibbiyot Markazi,Toshkent sh.,5.0,"Asab tizimidagi muammolardan tezda xalos qildilar.;O'z ishining haqiqiy mutaxassisi ekanliklari bilinib turadi.;Juda xushmuomala va bilimli doktor.;Tavsiya qilgan dorilari darhol yordam berdi.;Minnatdorman!",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Malika Saidova,Pediatr,7 yil,Respublika Bolalar Shifoxonasi,Samarqand sh.,4.8,"Bolalar bilan tillashishni juda yaxshi biladilar.;Farzandim faqat shu doktorga ko'rinishni xohlaydi.;Malakali va mehribon bolalar shifokori.;Bergan maslahatlari juda foydali bo'ldi.;Rahmat sizga!",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Bobur Ahmedov,Stomatolog,9 yil,Dental Lux Klinika,Toshkent sh.,5.0,"Tish davolatishdan qo'rqadiganlar uchun eng zo'r tanlov.;Og'riqsiz va juda sifatli davoladilar.;Ishlari toza va ozoda ekan.;Hamma shifokorlar shunday bo'lsa qaniydi.;Ajoyib mutaxassis!",https://images.unsplash.com/photo-1622902046580-2b47f47f5471
-Dr. Dilfuza Rahimova,Ginekolog,14 yil,3-sonli Tug'ruq Majmuasi,Toshkent sh.,4.9,"O'z ishining ustasi, juda tajribali mutaxassis.;Har bir narsani tushuntirib, maslahat beradilar.;Ishonchli va malakali doktor.;Xushmuomalaligi uchun alohida rahmat.;Juda mamnun bo'ldim.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Sanjarbek Normatov,Kardiolog,6 yil,Viloyat Kardiologiya Dispanseri,Samarqand sh.,4.8,"Yurak muammolari bo'yicha eng yaxshi mutaxassis.;Diqqat bilan eshitib, to'g'ri maslahat berdilar.;Muolajalari juda qo'l keldi.;Ishiga mas'uliyat bilan yondashadi.;Rahmat!",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Nilufar Usmonova,Endokrinolog,11 yil,Endokrinologiya Ilmiy-Tekshirish Instituti,Toshkent sh.,5.0,"Gormonal muammolarni tezda aniqlab, davoladilar.;Juda bilimli va tajribali shifokor.;Batafsil tushuntirib berishlari yoqdi.;Tavsiya qilaman.;O'z ishining mutaxassisi.",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Farhod Rahimov,LOR,13 yil,Shahar 1-Klinik Kasalxonasi,Buxoro sh.,4.9,"Tomoq va burun muammolarini qiynamasdan davoladilar.;Juda tajribali va e'tiborli shifokor.;Qo'llari yengil ekan.;Barchaga tavsiya qilaman.;Rahmat!",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Kamola Xamidova,Oftalmolog,8 yil,Zarmed Klinikasi,Samarqand sh.,5.0,"Ko'rish qobiliyatimni tiklashda katta yordam berdilar.;Zamonaviy usulda tekshiruvdan o'tkazdilar.;Juda xushmuomala doktor.;Ko'zoynak tanlashda professional yordam berishdi.;Katta rahmat!",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Rustam Qodirov,Terapevt,15 yil,Medion Tibbiyot Markazi,Toshkent sh.,4.7,"Tajribali shifokor, tashxisi aniq chiqdi.;Oddiy va tushunarli qilib tushuntirdilar.;Muolajasi tez ta'sir qildi.;Xushmuomala inson.;Rahmat!",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Shahlo Tursunova,Pediatr,5 yil,Shifo Info Klinikasi,Toshkent sh.,4.9,"Bolamizni tez tuzatib berishdi.;Mehribon va e'tiborli shifokor.;Har doim aloqada bo'ladilar.;Tavsiya qilamiz.;Rahmat!",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Bekzod Omonov,Nevrolog,9 yil,Neuro Plus Markazi,Farg'ona sh.,4.8,"Asabiy zo'riqishlardan qiynalayotgandim, yordam berishdi.;Malakali mutaxassis.;Dori-darmonlarni kam va aniq yozdilar.;Tashakkur.;Zo'r doktor!",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Gulchehra Ismoilova,Ginekolog,16 yil,Akfa Medline,Toshkent sh.,5.0,"Eng zo'r shifokorlardan biri.;Ishiga o'ta mas'uliyatli.;Barcha savollarimga javob oldim.;Juda mamnunman.;Rahmat!",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Jasur Mamatov,Stomatolog,7 yil,Stomo Servis,Namangan sh.,4.8,"Tishimni og'riqsiz davolashdi.;Sifati ajoyib.;Narxlari ham hamyonbop.;Qo'llari yengil ekan.;Tavsiya qilaman!",https://images.unsplash.com/photo-1622902046580-2b47f47f5471
-Dr. Nodira Yunusova,Kardiolog,10 yil,Cardio Med,Toshkent sh.,4.9,"Yurak og'riqlarim to'xtadi.;Juda e'tiborli doktor.;Tavsiyalari juda foydali bo'ldi.;Rahmat shifokorga.;Zo'r mutaxassis!",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Oybek Fayziyev,Urolog,12 yil,Shifo Nur,Samarqand sh.,4.7,"O'z ishining ustasi.;Muammoni tez topib, davoladilar.;Xushmuomala va professional.;Tashakkur.;Tavsiya qilaman!",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Ziyoda Mahmudova,Oftalmolog,6 yil,Nur ko'z klinikasi,Buxoro sh.,4.9,"Ko'zoynakdan qutulish sirlarini o'rgatdilar.;Juda zamonaviy shifokor.;Rahmat katta.;Ishlari rivoj bersin.;Zo'r!",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Anvar Jumayev,Xirurg,15 yil,1-sonli shahar kasalxonasi,Toshkent sh.,5.0,"Qo'llari dard ko'rmasin, haqiqiy xirurg.;Operatsiya muvaffaqiyatli o'tdi.;Juda minnatdorman.;professional yondashuv.;Rahmat!",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Feruza Sodiqova,Dermatolog,8 yil,Derma Life,Toshkent sh.,4.8,"Teri muammolarimdan asar ham qolmadi.;To'g'ri vositalarni tavsiya etdilar.;Juda madaniyatli shifokor.;Rahmat!;Tavsiya qilaman.",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Sherzod Rahmonov,Ortoped,11 yil,Travmatologiya markazi,Toshkent sh.,4.9,"Suyaklarim tez bitib ketishiga yordam berishdi.;Malakali mutaxassis.;Maslahatlari juda o'rinli bo'ldi.;Rahmat!;Zo'r shifokor.",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Dildora Ergasheva,Endokrinolog,9 yil,Medikal Park,Samarqand sh.,4.8,"Gormonlar bo'yicha barcha tahlillarimni tekshirib, davo yozdilar.;Juda aqlli doktor.;Rahmat!;Tavsiya qilaman.;Ishidan mamnunman.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Murod Xolov,LOR,7 yil,Lor Servis,Qashqadaryo sh.,4.7,"Quloq og'rig'im tez tuzaldi.;Yaxshi shifokor ekan.;Muomalasi ajoyib.;Rahmat!;Tavsiya qilaman.",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Gulnora Aliyeva,Terapevt,13 yil,Shifo klinika,Namangan sh.,4.9,"Tajribali terapevt.;Hamma kasalliklarimni birma-bir tekshirib davoladilar.;Rahmat!;Juda e'tiborli.;Zo'r!",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Botir Qurbonov,Nevrolog,14 yil,Nevromed,Toshkent sh.,5.0,"Asab tizimini davolashda tengi yo'q.;Juda ko'p narsani tushuntirdilar.;Rahmat katta.;Professional yondashuv.;Tavsiya qilaman.",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Madina Xoliqova,Pediatr,6 yil,Bolalar shifoxonasi,Andijon sh.,4.8,"Farzandimiz tez sog'aydi.;Mehribon doktor.;Bolalar tili topishni biladilar.;Rahmat!;Ajoyib mutaxassis.",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Sanjar Islomov,Stomatolog,10 yil,Dental Pro,Toshkent sh.,4.9,"Tishlarimni chiroyli qilib qo'yishdi.;Og'riqsiz davolashdi.;Rahmat!;Juda toza ishlaydi.;Tavsiya qilaman.",https://images.unsplash.com/photo-1622902046580-2b47f47f5471
-Dr. Mohira Toirova,Ginekolog,12 yil,Ayollar salomatligi,Toshkent sh.,4.8,"Malakali yondashuv.;Barcha savollarimga javob oldim.;Rahmat!;Juda e'tiborli doktor.;Mamnunman.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Ulug'bek Nazarov,Kardiolog,9 yil,Yurak markazi,Buxoro sh.,4.9,"Yuragim tinchidi.;Rahmat shifokorga.;Zo'r mutaxassis.;Maslahatlari foydali bo'ldi.;Tavsiya qilaman.",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Sevara Qodirova,Dermatolog,5 yil,Skin Clinic,Toshkent sh.,4.7,"Yuzimdagi muammolar ketdi.;Rahmat!;Zarur maslahatlar berishdi.;Ajoyib doktor.;Tavsiya qilaman.",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Xurshidbek Karimov,Xirurg,11 yil,Shoshilinch tibbiyot,Toshkent sh.,5.0,"Haqiqiy qutqaruvchi doktor.;Operatsiya ajoyib o'tdi.;Rahmat!;O'z ishining ustasi.;Tavsiya qilaman.",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Barno Hakimova,Oftalmolog,10 yil,Optik Med,Samarqand sh.,4.9,"Ko'zoynagimni almashtirib, to'g'ri retsept yozdilar.;Rahmat!;Juda xushmuomala.;Zo'r mutaxassis.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Oybek Toshmatov,Ortoped,8 yil,Travma Servis,Toshkent sh.,4.8,"Oyoq og'rig'im tuzaldi.;Rahmat!;Professional yondashuv.;Tavsiya qilaman.;Zo'r doktor.",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Nigora Usmonova,Endokrinolog,7 yil,Med Life,Toshkent sh.,4.8,"Metabolizmni tikladilar.;Rahmat!;Juda bilimli shifokor.;Tavsiya qilaman.;Mamnunman.",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Rustam Nazarov,Urolog,13 yil,Uro Med,Toshkent sh.,4.9,"Muammoni tez hal qildilar.;Rahmat!;Tajribali mutaxassis.;Tavsiya qilaman.;Zo'r!",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Zulfiya Rahimova,Terapevt,11 yil,Shifo Nur,Namangan sh.,4.8,"Dam olish maskanidek muomalada bo'ldilar.;Rahmat!;Aniq tashxis qo'ydilar.;Tavsiya qilaman.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Farrux Ziyoyev,Nevrolog,6 yil,Nevro Med,Samarqand sh.,4.7,"Bosh og'rig'im qoldi.;Rahmat!;Yaxshi shifokor.;Tavsiya qilaman.;Zo'r mutaxassis.",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Dilshodbek Ahmedov,Stomatolog,8 yil,Dent Master,Toshkent sh.,4.9,"Tishimni qutqardilar.;Rahmat!;Og'riqsiz davolashdi.;Tavsiya qilaman.;Ajoyib!",https://images.unsplash.com/photo-1622902046580-2b47f47f5471
-Dr. Gulandom Saidova,Pediatr,9 yil,Bolalar shifoxonasi,Toshkent sh.,5.0,"Farzandlarimiz uchun eng sevimli doktor.;Rahmat!;Mehribon va e'tiborli.;Tavsiya qilamiz.",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Asrorbek Tursunov,Kardiolog,14 yil,Kardio Plus,Toshkent sh.,5.0,"Yurak kasalliklari bo'yicha super mutaxassis.;Rahmat!;Hayotimni saqlab qoldilar.;Tavsiya qilaman.",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Kamola Rahimova,Ginekolog,10 yil,Ayollar klinikasi,Toshkent sh.,4.9,"Juda e'tiborli va bilimli doktor.;Rahmat!;Barcha savollarimga javob oldim.;Tavsiya qilaman.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Mardonbek Sobirov,LOR,9 yil,Lor Center,Buxoro sh.,4.8,"Tomoq og'rig'im tez tuzaldi.;Rahmat!;Zo'r shifokor.;Tavsiya qilaman.;Professional.",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Shahlo Karimova,Oftalmolog,7 yil,Vision Plus,Toshkent sh.,4.8,"Ko'z nurim yaxshilandi.;Rahmat!;Zamonaviy uskunalar bilan tekshirdilar.;Tavsiya qilaman.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Boburmirzo Ismoilov,Xirurg,12 yil,Respublika xirurgiya,Toshkent sh.,5.0,"Oltin qo'lli xirurg.;Rahmat!;Operatsiya ajoyib o'tdi.;Tavsiya qilaman.;Zo'r!",https://images.unsplash.com/photo-1537368910025-700350fe46c7
-Dr. Ziyoda Tursunova,Dermatolog,6 yil,Derma Med,Toshkent sh.,4.7,"Terim sog'lomlashdi.;Rahmat!;To'g'ri muolaja yozdilar.;Tavsiya qilaman.;Zo'r doktor.",https://images.unsplash.com/photo-1559839734-2b71ea197ec2
-Dr. Jasurbek Ahmedov,Ortoped,10 yil,Ortopediya markazi,Toshkent sh.,4.9,"Bel og'rig'im qoldi.;Rahmat!;Juda malakali mutaxassis.;Tavsiya qilaman.;Ajoyib!",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Nodira Sodiqova,Endokrinolog,8 yil,Endo Med,Toshkent sh.,4.8,"Shakar miqdorini joyiga tushirdilar.;Rahmat!;Bilimli doktor.;Tavsiya qilaman.;Zo'r!",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Sardorbek Rahimov,Urolog,11 yil,Uro Center,Toshkent sh.,4.9,"Tez va samarali davoladilar.;Rahmat!;Tajribali shifokor.;Tavsiya qilaman.;Ajoyib!",https://images.unsplash.com/photo-1622253692010-333f2da6031d
-Dr. Malika Tursunova,Terapevt,7 yil,Med Plaza,Toshkent sh.,4.8,"Insofli va bilimli terapevt.;Rahmat!;Barcha dardlarimni tinglab davo yozdilar.;Tavsiya qilaman.",https://images.unsplash.com/photo-1594824813575-584f1b0a8862
-Dr. Alisher Fayziyev,Nevrolog,13 yil,Nevrologiya markazi,Toshkent sh.,5.0,"Asab kasalliklari bo'yicha professional.;Rahmat!;Maslahatlari oltinga teng.;Tavsiya qilaman.;Zo'r!",https://images.unsplash.com/photo-1622253692010-333f2da6031d
+Ism,Mutaxassislik,Manzil,Reyting,Rasm
+"Dr. Ismatova Moxigul Kabulovna","Allergolog","International Allergy Center, Osiyo ko`chasi, 86А","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Tursunova Dilorom Sabitovna","Allergolog, Pulmonolog, Immunolog, Terapevt","Medion Clinic 24-7, Zulfiyaxanum ko`chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Qurbonova Guncha Amangeldievna","Allergolog, Fizioterapevt, Pulmonolog","M-Clinic, Tantan ko'chasi, 1-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Rumi Linara Rinatovna","Allergolog","International Allergy Center, Osiyo ko`chasi, 86А","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Abdurahmonov Abdulla Abdukaharovich","Allergolog, Pulmonolog, Pediatr, Terapevt","Medion Family Hospital, Istiroxat ko'ch., 258","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Rahmonova Shoira Po'latovna","Allergolog, Nevropatolog","Dusel Medical, To‘kimachi ko‘chasi, 3-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Tkachuk Viktoriya Aleksandrovna","Allergolog","International Allergy Center / EBM Clinic, Osiyo ko`chasi, 86А","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Saipova Nodira Sagdullayevna","Allergolog, Dermatolog, Podolog, Kosmetolog","OpenLab tibbiyot markazi, Avliyo ota ko'chasi, 9","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Ismoilova Dilfuza Mirsabitovna","Allergolog, Pulmonolog, Terapevt","Medion Clinic 24-7, Zulfiyaxanum ko`chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Pulatova Iroda Alijonovna","Allergolog","M-Clinic, Tantan ko'chasi, 1-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Malikova Alfira Railovna","Allergolog, Kardiolog, Gastroenterolog, Pulmonolog","Shams Medical Center, Tallimarjon ko`chasi, 43","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Jurayeva Maftuna Kuvandikovna","Allergolog","International Allergy Center, Osiyo ko`chasi, 86А","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Miraxmedova Gulnora Turgunovna","Allergolog, Dermatolog, Pulmonolog","Saba Darmon, Bogkucha ko`chasi, 17A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Ochilov Sardor Ilxomovich","Allergolog, Pulmonolog, Immunolog","Shox Med Педиатрия, Xushnavo 4-chi o'tish joyi, 26/2","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Ubaydullaeva Naima Nabixanovna","Allergolog, Pulmonolog","International Allergy Center / Shahar klinik kasalxonasi №1, Osiyo ko`chasi, 86А","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Xudoyqulova Nodira Ulug'bekovna","Allergolog, Pulmonolog, Terapevt","Darmon Servis, Cho'pon Ota ko`chasi, 18/19","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Ortikxodjayeva Durdona Anvarovna","Allergolog, Pediatr, Immunolog","Darmon Servis, Cho'pon Ota ko`chasi, 18/19","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Alieva Vasila Shukurullaevna","Allergolog","Medilux Medical center, Farobiy ko`chasi, 3-B","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Djurayev Abduvaxid Raxmankulovich","Allergolog, Pulmonolog","Sinomed MD / Darmon Servis, Taxtapul ko`chasi, 341a","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Dr. Abdug'aniyev Saidazimxon Usmonxujayevich","Allergolog, Immunolog, Pulmonolog","Kimyo University Hospital, Bunyodkor ko`ch. Yakkabog` MFY, 19","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Fattaxov Bobir Shavkatovich","Dermatolog, Dermatovenereolog","O'zbekiston dermatovenerologiya va kosmetologiya markazi, Farobiy ko'chasi, 3A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Xaldarbekov Madamin Karimjanovich","Dermatolog, Dermatovenereolog","O'zbekiston dermatovenerologiya va kosmetologiya markazi, Farobiy ko'chasi, 3A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Zakirov Rustam Ruxullaevich","Dermatolog, Dermatovenereolog","Medion Aesthetic and SPA / Medion Clinic 24-7, Zulfiyaxonim ko'chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Jamolov Davron Nematovich","Dermatolog","Shox Med Center, Oybek ko`chasi 34","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Rasulova Nazira Anvarovna","Dermatolog","O'zbekiston dermatovenerologiya va kosmetologiya markazi, Farobiy ko'chasi, 3A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Alyavi Saidnairxon Farxadovich","Dermatolog, Venereolog","Doctor D, Usta Olim ko`chasi, 15 uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Abdullaxo'jayev Kamolliddin Abdurahmonovich","Dermatolog, Dermatovenereolog","O'zbekiston dermatovenerologiya va kosmetologiya markazi / Doktor Servis, Farobiy ko'chasi, 3A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Shoxraxmetov Shoraxmat Shorasulovich","Dermatolog, Trixolog","Medion Clinic 24-7 / Medion Aesthetic and SPA / Nano Hair Clinic, Zulfiyaxanum ko`chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Ortiqov Aziz Farruhjonovich","Dermatolog, Dermatovenereolog","Expert Medical Clinic - Pro Surgery, Yunusobod tumani, kichik aylana yo'li, 11A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Askarov Dilshod Alisherovich","Dermatolog, Dermatovenereolog, Trixolog","B2B Beautyclinic, Bunyodkor prospekti, 8E","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Toshmatova Odila Dilshodovna","Dermatolog, Trixolog, Kosmetolog","O'zbekiston dermatovenerologiya va kosmetologiya markazi, Farobiy ko'chasi, 3A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Raximova Zulayxo Tulkinovna","Dermatolog, Kosmetolog, Venereolog","M-Clinic, Tantan ko'chasi, 1-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Urunbayev Nugman Suratovich","Dermatolog, Dermatovenereolog","MDS Servis, Botkin ko`chasi, 110/3","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Abdullayev Umid Ubaydullayevich","Dermatolog, Oftalmolog","Shox Med Center / Darmon Servis / NIKAMED, Oybek ko`chasi 34","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Rahmatullayeva Sevara Nodirbekovna","Dermatolog, Dermatovenereolog","O'zbekiston dermatovenerologiya va kosmetologiya markazi, Farobiy ko'chasi, 3A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Sodiqova Shohida Farxadovna","Dermatolog, Kosmetolog, Dermatovenereolog","Medion Aesthetic and SPA / Medion Clinic 24-7, Zulfiyaxonim ko'chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Babaqulova Gulnora Sabirjanovna","Dermatolog, Kosmetolog","O'zbekiston dermatovenerologiya va kosmetologiya markazi, Farobiy ko'chasi, 3A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Eshyozova Dilfuza Yakubbayevna","Dermatolog, Kosmetolog, LOR (Otolaringolog)","Mevazor Med, Keles Yo`li ko`chasi, 156","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Inogamova Malika Abdulxalilovna","Dermatolog","Kamola Diagnostic Medecine, Olmazor tumani, Birlik ko‘chasi, 2-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Osarov Tolkin Kurbanovich","Dermatolog, Dermatovenereolog","Global Medical Center, Yangi Sergeli ko`chasi, 35","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Myasnik Vladimir Borisovich","Kardiolog","MDS Servis, Botkin ko`chasi, 110/3","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Zhuravleva Yuliya Yuriyevna","Kardiolog, Terapevt","De Factum Central, Osiyo ko'ch. 86A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Jepparova Liliya Enverovna","Kardiolog, Terapevt","De Factum Central, Osiyo ko'ch. 86A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Shermatov Gayrat Ermamatovich","Kardiolog","Doctor D, Usta Olim ko`chasi, 15 uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Axmedov Gafur Saparbayevich","Kardiolog, Terapevt","Medion Clinic 24-7 / Humo Med Center, Zulfiyaxanum ko`chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Bakieva Malika Alimovna","Kardiolog, Terapevt","Medion Family Hospital, Istiroxat ko'ch., 258","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Pardayev Bobur Baxtiyorovich","Kardiolog","IP Clinic / New Medical Service, Yassi ko'chasi, 38-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Shomatova Nilufar Minavarovna","Kardiolog, Terapevt","Shox Med Center, Oybek ko`chasi 34","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Qayumova Risolat Ro'ziqulovna","Kardiolog, Terapevt","Shox Med Center, Oybek ko`chasi 34","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Qodirov Behzod Baxramovich","Kardiolog, Reanimatolog","Yurak Markazi, Yangi Qo'yliq, 1B","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Salaxitdinov Shuxrat Najmiddinovich","Kardiolog","M-Clinic, Tantan ko'chasi, 1-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Aminov Abduazim Abdullaevich","Kardiolog","Expert Medical Clinic - Pro Surgery, Yunusobod tumani, kichik aylana yo'li, 11A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Ibragimov Muxiddin Nuriddinovich","Kardiolog","M-Clinic, Tantan ko'chasi, 1-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Adilova Ikbol Gafuritdinovna","Kardiolog","Medion Innovation / Respublika ixtisoslashtirilgan kardiologiya markazi, Abdulla Qodiriy ko'chasi, 39","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Arnopolskaya Dina Iosifovna","Kardiolog, Revmatolog, Terapevt","De Factum Megapolis / De Factum Central, Yunusobod massivi, 13 kv-l, 1A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Xalilova Dilfuza Abduraxmanovna","Kardiolog, Terapevt","ARK HOSPITAL, Farobi ko'cha, 323","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Kazantseva Natalya Vladimirovna","Kardiolog, Terapevt","Medion Clinic 24-7, Zulfiyaxanum ko`chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Kim Sergey Vitalievich","Kardiolog","Medion Family Hospital / Sinomed MD International Hospital, Istiroxat ko'ch., 258","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Mirxodjaeva Ibodat Ismoilovna","Kardiolog, Revmatolog","De Factum Kids, Avliyo-Ota ko`chasi, 1-2","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Xalmuratov Mansur Komiljonovich","Kardiolog, Terapevt","Medion Clinic 24-7 / Samo Medical 24-7, Zulfiyaxanum ko`chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Bo'rixodjaeva Gulnora Xulkarovna","Ginekolog, Akusher","MDS Servis, Botkin ko`chasi, 110/3","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Shamsiddinova Nargiza Alixanovna","Ginekolog","Medion Clinic 24-7, Zulfiyaxanum ko`chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Abdusamatova Lola Boltaevna","Ginekolog, Akusher, Reproduktolog","B2B Beautyclinic, Bunyodkor prospekti, 8E","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Shaxmurova Bella Nikolaevna","Ginekolog, Akusher","De Factum Central, Osiyo ko'ch. 86A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Karimova Zilola Maksimovna","Ginekolog","Shox Med Center, Oybek ko`chasi 34","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Abdumalikova Shohida Mirzaevna","Ginekolog","De Factum Megapolis / Akusherlik va ginekologiya ilmiy-tadqiqot instituti, Yunusobod massivi, 13 kv-l, 1A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Raxmatova Nilufar Boboyorovna","Ginekolog, Endokrinolog","LA TIVA Birth Home, Istiroxat ko'chasi, 258","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Almuxamedova Barno Gulmuhamadovna","Ginekolog, Onkolog","M-Clinic / Respublika ixtisoslashtirilgan onkologiya va radiologiya markazi, Tantan ko'chasi, 1-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Mirzaxmedova Nargiza Alisultanova","Ginekolog, Reproduktolog","Doctor D, Usta Olim ko`chasi, 15 uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Israilova Zamira Shuxratovna","Ginekolog, Akusher","O'zbekiston dermatovenerologiya va kosmetologiya markazi / MirMed Clinic, Farobiy ko'chasi, 3A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Zohidova Nargis Ravshanovna","Ginekolog, Akusher","De Factum Central / Ayol Care, Osiyo ko'ch. 86A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Kadirova Nigora Tursunpolatovna","Ginekolog, Akusher","Dusel Medical, To‘kimachi ko‘chasi, 3-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Popov Aleksandr Anatolievich","Ginekolog, Jarroh, Onkolog","Medion Family Hospital, Istiroxat ko'ch., 258","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Romanova Yekaterina Gennadevna","Ginekolog","De Factum Kids, Avliyo-Ota ko`chasi, 1-2","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Fayzliyeva Kamola G'aybiddinovna","Ginekolog, Akusher","Expert Medical Clinic - Pro Surgery, Yunusobod tumani, kichik aylana yo'li, 11A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Luchenko Lia Raufovna","Ginekolog, Akusher","De Factum Central, Osiyo ko'ch. 86A","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Fozilbekov Ro'ziqul Anarkulovich","Ginekolog","M-Clinic / AKFA Medline, Tantan ko'chasi, 1-uy","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Sabirzyanova Liliya Gayratovna","Ginekolog","Medion Clinic 24-7, Zulfiyaxanum ko`chasi, 18","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Buribekova Dildora Shuhratovna","Ginekolog","ARK HOSPITAL, Farobi ko'cha, 323","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
+"Buynova Viktoriya Anatolievna","Ginekolog, Akusher, Ultratovush mutaxassisi","LA TIVA Birth Home, Istiroxat ko'chasi, 258","⭐⭐⭐⭐⭐","https://via.placeholder.com/150"
