@@ -7,7 +7,6 @@ st.set_page_config(page_title="Tabib AI - Healthcare Ecosystem", page_icon="🏥
 
 # --- TILNI TANLASH VA TARJIMALAR ---
 st.sidebar.title("🏥 Tabib AI")
-# Asosiy sahifa ingliz tilida ochiladi, lekin o'zbek tiliga o'tkazish mumkin
 lang = st.sidebar.selectbox("🌐 Language / Til", ["English", "O'zbekcha"])
 
 translations = {
